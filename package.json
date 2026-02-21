@@ -1,0 +1,23 @@
+{
+  "name": "skillswap-drewjones-a6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrewBuild/skillswap-DrewJones-A6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrewBuild/skillswap-DrewJones-A6/issues"
+  },
+  "homepage": "https://github.com/DrewBuild/skillswap-DrewJones-A6#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
