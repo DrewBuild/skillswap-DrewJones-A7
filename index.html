@@ -26,6 +26,46 @@
     <p>Find or offer skills in your community.</p>
   </section>
 
+  <!-- ADD NEW SKILL FORM -->
+  <section class="add-skill">
+    <h2>Offer a Skill</h2>
+    <form id="create-skill-form">
+
+      <input 
+        type="text" 
+        name="title" 
+        placeholder="Skill Title" 
+        required
+      >
+
+      <select name="category" required>
+        <option value="">Select Category</option>
+        <option value="Programming">Programming</option>
+        <option value="Music">Music</option>
+        <option value="Career">Career</option>
+      </select>
+
+      <input 
+        type="number" 
+        name="price" 
+        placeholder="Price per Hour" 
+        step="0.01" 
+        required
+      >
+
+      <textarea 
+        name="description" 
+        placeholder="Skill Description" 
+        required
+      ></textarea>
+
+      <button type="submit">Add Skill</button>
+
+    </form>
+
+    <p id="error-message" style="color:red; display:none;"></p>
+  </section>
+
   <!-- FILTER BUTTONS -->
   <section class="filters">
     <button data-category="All">All</button>
@@ -45,6 +85,9 @@
   <p>© 2026 Skill Swap</p>
 </footer>
 
+<!-- IMPORTANT: api-service must load before script -->
+<script src="api-service.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>
